@@ -1,0 +1,43 @@
+#body {
+  position: relative;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color:blue;
+}
+
+#body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./pngtree-cricket-logo-png-image_8823326.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+.button {
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 10px;
+  border: 2px solid black;
+  background-color: aqua;
+  color: darkred;
+}
+
+#button {
+  font-size: larger;
+}
+
+.foot {
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+  color: yellow;
+}
